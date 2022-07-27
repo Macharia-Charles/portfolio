@@ -23,3 +23,8 @@ class Education(models.Model):
 class Skills(models.Model):
     skill = models.CharField(max_length=50, null=False)
     Description = models.TextField(max_length=350)
+
+
+class Interests(models.Model):
+    interest = models.CharField(max_length=50, null=False)
+    Description = models.TextField(max_length=350)
