@@ -1,0 +1,28 @@
+{
+    "name": "charles/portfolio",
+    "description": "A modern design portfolio using PHP, HTML, Tailwind CSS, and MongoDB",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charles Macharia",
+            "role": "Developer",
+            "email": "machariacharleskariuki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "mongodb/mongodb": "^1.12",
+        "ext-mongodb": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Portfolio\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable"
+}
