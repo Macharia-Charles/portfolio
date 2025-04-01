@@ -13,7 +13,7 @@ function isActive($page) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $page_title ?? 'Portfolio'; ?> - Your Name</title>
+    <title><?php echo $page_title ?? 'Portfolio'; ?> - Charles Macharia</title>
     <!-- Tailwind CSS CDN for development (use compiled version for production) -->
     <!-- script src="https://cdn.tailwindcss.com"></script -->
     <link rel="stylesheet" href="<?php echo $base_url ?? ''; ?>assets/css/tailwind.css">
@@ -31,7 +31,7 @@ function isActive($page) {
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
                         <a href="<?php echo $base_url ?? ''; ?>index.php">
-                            <h1 class="text-2xl font-bold text-indigo-600">Your Name</h1>
+                            <h1 class="text-2xl font-bold text-indigo-600">Charles Macharia</h1>
                         </a>
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
@@ -43,14 +43,14 @@ function isActive($page) {
                     </div>
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:items-center">
-                    <a href="#" class="p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                    <a href="https://github.com/Macharia-Charles" class="p-1 rounded-full text-gray-400 hover:text-indigo-600">
                         <i class="fab fa-github text-xl"></i>
                     </a>
-                    <a href="#" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                    <a href="https://www.linkedin.com/in/kariuki-charles-64155b181/" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
                         <i class="fab fa-linkedin text-xl"></i>
                     </a>
-                    <a href="#" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
-                        <i class="fab fa-dribbble text-xl"></i>
+                    <a href="https://x.com/kariuki_mash" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                        <i class="fab fa-twitter text-xl"></i>
                     </a>
                 </div>
                 <!-- Mobile menu button -->

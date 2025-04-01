@@ -3,19 +3,16 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                    <h3 class="text-xl font-bold mb-4">Charles Macharia</h3>
                     <p class="text-gray-300 mb-4">Designing and developing exceptional digital experiences.</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://github.com/Macharia-Charles" class="text-gray-300 hover:text-white">
                             <i class="fab fa-github text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://www.linkedin.com/in/kariuki-charles-64155b181/" class="text-gray-300 hover:text-white">
                             <i class="fab fa-linkedin text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
-                            <i class="fab fa-dribbble text-xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://x.com/kariuki_mash" class="text-gray-300 hover:text-white">
                             <i class="fab fa-twitter text-xl"></i>
                         </a>
                     </div>
@@ -35,21 +32,21 @@
                     <ul class="space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-map-marker-alt mt-1 mr-3 text-indigo-400"></i>
-                            <span>Your Address, City, Country</span>
+                            <span>111-20320, Kinamba, Kenya</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-envelope mt-1 mr-3 text-indigo-400"></i>
-                            <span>your.email@example.com</span>
+                            <span>machariacharleskariuki@gmail.com</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-phone mt-1 mr-3 text-indigo-400"></i>
-                            <span>+1 234 567 890</span>
+                            <span>+254 726 288 871</span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-                <p>&copy; <?php echo date('Y'); ?> Your Name. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Charles Macharia. All rights reserved.</p>
             </div>
         </div>
     </footer>

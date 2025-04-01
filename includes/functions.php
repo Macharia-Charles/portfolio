@@ -118,20 +118,6 @@ function getBaseUrl() {
 }
 
 /**
- * Get array of skill categories
- * 
- * @return array Skill categories
- */
-function getSkillCategories() {
-    return [
-        'design' => 'Design',
-        'frontend' => 'Frontend Development',
-        'backend' => 'Backend Development',
-        'tools' => 'Tools & Software'
-    ];
-}
-
-/**
  * Validate a reCAPTCHA response
  * 
  * @param string $recaptchaResponse The response from the reCAPTCHA widget
@@ -196,4 +182,19 @@ function checkMongoDbSetup() {
 function isAjaxRequest() {
     return !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && 
            strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+}
+
+
+/**
+ * Get array of skill categories
+ * 
+ * @return array Skill categories
+ */
+function getSkillCategories() {
+    return [
+        'programming' => 'Programming Languages',
+        'frameworks' => 'Frameworks & Libraries',
+        'technical' => 'Technical Skills',
+        'soft' => 'Soft Skills'
+    ];
 }

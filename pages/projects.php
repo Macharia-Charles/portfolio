@@ -30,9 +30,10 @@ if (isset($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $singleProjectView ? htmlspecialchars($project['title']) . ' - ' : ''; ?>Projects - Your Name</title>
+    <title><?php echo $singleProjectView ? htmlspecialchars($project['title']) . ' - ' : ''; ?>Projects - Charles Macharia</title>
     <!-- Tailwind CSS CDN for development (use compiled version for production) -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- link rel="stylesheet" href="<?php echo $base_url ?? ''; ?>assets/css/tailwind.css" -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/custom.css">
     <!-- Font Awesome for icons -->
@@ -46,7 +47,7 @@ if (isset($_GET['id'])) {
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
                         <a href="../index.php">
-                            <h1 class="text-2xl font-bold text-indigo-600">Your Name</h1>
+                            <h1 class="text-2xl font-bold text-indigo-600">Charles Macharia</h1>
                         </a>
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
@@ -58,14 +59,14 @@ if (isset($_GET['id'])) {
                     </div>
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:items-center">
-                    <a href="#" class="p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                    <a href="https://github.com/Macharia-Charles" class="p-1 rounded-full text-gray-400 hover:text-indigo-600">
                         <i class="fab fa-github text-xl"></i>
                     </a>
-                    <a href="#" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                    <a href="https://www.linkedin.com/in/kariuki-charles-64155b181/" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
                         <i class="fab fa-linkedin text-xl"></i>
                     </a>
-                    <a href="#" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
-                        <i class="fab fa-dribbble text-xl"></i>
+                    <a href="https://x.com/kariuki_mash" class="ml-3 p-1 rounded-full text-gray-400 hover:text-indigo-600">
+                        <i class="fab fa-twitter text-xl"></i>
                     </a>
                 </div>
                 <!-- Mobile menu button -->
@@ -340,19 +341,16 @@ if (isset($_GET['id'])) {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                    <h3 class="text-xl font-bold mb-4">Charles Macharia</h3>
                     <p class="text-gray-300 mb-4">Designing and developing exceptional digital experiences.</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://github.com/Macharia-Charles" class="text-gray-300 hover:text-white">
                             <i class="fab fa-github text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://www.linkedin.com/in/kariuki-charles-64155b181/" class="text-gray-300 hover:text-white">
                             <i class="fab fa-linkedin text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
-                            <i class="fab fa-dribbble text-xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="https://x.com/kariuki_mash" class="text-gray-300 hover:text-white">
                             <i class="fab fa-twitter text-xl"></i>
                         </a>
                     </div>
@@ -372,21 +370,21 @@ if (isset($_GET['id'])) {
                     <ul class="space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-map-marker-alt mt-1 mr-3 text-indigo-400"></i>
-                            <span>Your Address, City, Country</span>
+                            <span>111-20320, Kinamba, Kenya</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-envelope mt-1 mr-3 text-indigo-400"></i>
-                            <span>your.email@example.com</span>
+                            <span>machariacharleskariuki@gmail.com</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-phone mt-1 mr-3 text-indigo-400"></i>
-                            <span>+1 234 567 890</span>
+                            <span>+254 726 288 871</span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-                <p>&copy; <?php echo date('Y'); ?> Your Name. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Charles Macharia. All rights reserved.</p>
             </div>
         </div>
     </footer>
