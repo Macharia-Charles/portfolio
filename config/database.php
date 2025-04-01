@@ -10,7 +10,7 @@ class Database {
         try {
             // Replace with your MongoDB connection string
             // Format: mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority
-            $connectionString = "mongodb+srv://username:password@your-cluster-url.mongodb.net/portfolio?retryWrites=true&w=majority";
+            $connectionString = "mongodb+srv://mashjones:jnpZQVPTwLCYP9lU@portfolio.rgn9sji.mongodb.net/portfolio?retryWrites=true&w=majority&appName=portfolio";
             
             // Create a new client and connect to the server
             $this->client = new MongoDB\Client($connectionString);

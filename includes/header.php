@@ -15,7 +15,8 @@ function isActive($page) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title ?? 'Portfolio'; ?> - Your Name</title>
     <!-- Tailwind CSS CDN for development (use compiled version for production) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- script src="https://cdn.tailwindcss.com"></script -->
+    <link rel="stylesheet" href="<?php echo $base_url ?? ''; ?>assets/css/tailwind.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo $base_url ?? ''; ?>assets/css/custom.css">
     <!-- Font Awesome for icons -->
